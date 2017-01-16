@@ -18,6 +18,7 @@ public class Elemental extends Mob{
         this.setMagicRes(this.getMagicRes() + 50);
         if (this.getMagicRes() >= 100){
             this.setMagicRes(99);
+            
         }
     }
     
